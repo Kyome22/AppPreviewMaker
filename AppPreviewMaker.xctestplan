@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "1B08AFC1-48F7-481F-AC3E-55F2CE3C8651",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:AppPreviewMaker.xcodeproj",
+      "identifier" : "1C67D1B12AE2AD01009F4A60",
+      "name" : "AppPreviewMaker"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:AppPreviewMaker.xcodeproj",
+        "identifier" : "1CE66B552AE377DD00AC612D",
+        "name" : "AppPreviewMakerUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

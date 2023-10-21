@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "en_iphone_8_plus_search_engine.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "ja_iphone_8_plus_search_engine.png",
+      "idiom" : "universal",
+      "locale" : "ja"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true,
+    "template-rendering-intent" : "original"
+  }
+}
