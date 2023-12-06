@@ -10,7 +10,7 @@ import SwiftUI
 
 struct PageView: View {
     let device: Device
-    let title: String
+    let title: LocalizedStringKey
     let imageResource: ImageResource
 
     var body: some View {
@@ -19,6 +19,7 @@ struct PageView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(Color.black)
+                .multilineTextAlignment(.center)
             GeometryReader { proxy in
                 ZStack {
                     Image(imageResource)
@@ -36,5 +37,5 @@ struct PageView: View {
 }
 
 #Preview {
-    PageView(device: .iPhone14ProMax, title: "Title", imageResource: .iPhone14ProMax)
+    PageView(device: .iPhone15ProMax, title: "title0", imageResource: .iPhone15ProMax)
 }

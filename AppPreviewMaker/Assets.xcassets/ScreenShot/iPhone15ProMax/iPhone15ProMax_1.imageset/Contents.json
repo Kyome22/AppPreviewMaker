@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "en_iPhone15ProMax_day.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "ja_iPhone15ProMax_day.png",
+      "idiom" : "universal",
+      "locale" : "ja"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true,
+    "template-rendering-intent" : "original"
+  }
+}

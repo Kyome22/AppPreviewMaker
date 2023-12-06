@@ -11,34 +11,27 @@ import SwiftUI
 struct PagingView: View {
     @Environment(\.dismiss) var dismiss
     let device: Device
-    let pages: [Page]
+    let totalPageNumber: Int
 
     var body: some View {
         TabView {
             Button {
                 dismiss()
             } label: {
-                Label("Back", systemImage: "arrow.backward")
+                Label("back", systemImage: "arrow.backward")
             }
             .accessibilityIdentifier("backButton1")
-            ForEach(pages) { page in
+            ForEach(0 ..< totalPageNumber, id: \.self) { index in
                 PageView(
                     device: device,
-                    title: page.enTitle,
-                    imageResource: page.imageResource(device: device)
+                    title: LocalizedStringKey(stringLiteral: "title\(index)"),
+                    imageResource: ImageResource(name: "\(device.prefix)_\(index)", bundle: .main)
                 )
-                .environment(\.locale, .init(identifier: "en"))
-                PageView(
-                    device: device,
-                    title: page.jaTitle,
-                    imageResource: page.imageResource(device: device)
-                )
-                .environment(\.locale, .init(identifier: "ja"))
             }
             Button {
                 dismiss()
             } label: {
-                Label("Back", systemImage: "arrow.backward")
+                Label("back", systemImage: "arrow.backward")
             }
             .accessibilityIdentifier("backButton2")
         }
@@ -51,5 +44,5 @@ struct PagingView: View {
 }
 
 #Preview {
-    PagingView(device: .iPhone14ProMax, pages: [])
+    PagingView(device: .iPhone15ProMax, totalPageNumber: 1)
 }

@@ -12,9 +12,9 @@
 		1C67D1BA2AE2AD03009F4A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C67D1B92AE2AD03009F4A60 /* Assets.xcassets */; };
 		1C67D1BD2AE2AD03009F4A60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C67D1BC2AE2AD03009F4A60 /* Preview Assets.xcassets */; };
 		1C67D1E02AE2B119009F4A60 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67D1DF2AE2B119009F4A60 /* Device.swift */; };
-		1C67D1E22AE2C02A009F4A60 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67D1E12AE2C02A009F4A60 /* Page.swift */; };
 		1C67D1E42AE2C040009F4A60 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67D1E32AE2C040009F4A60 /* PagingView.swift */; };
 		1C67D1E62AE2C063009F4A60 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67D1E52AE2C063009F4A60 /* PageView.swift */; };
+		1C827DD82B20D65C00BB4552 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1C827DD72B20D65C00BB4552 /* Localizable.xcstrings */; };
 		1CE66B592AE377DD00AC612D /* AppPreviewMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE66B582AE377DD00AC612D /* AppPreviewMakerUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +35,9 @@
 		1C67D1B92AE2AD03009F4A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C67D1BC2AE2AD03009F4A60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C67D1DF2AE2B119009F4A60 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		1C67D1E12AE2C02A009F4A60 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		1C67D1E32AE2C040009F4A60 /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 		1C67D1E52AE2C063009F4A60 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		1C827DD72B20D65C00BB4552 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		1CE66B562AE377DD00AC612D /* AppPreviewMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppPreviewMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE66B582AE377DD00AC612D /* AppPreviewMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreviewMakerUITests.swift; sourceTree = "<group>"; };
 		1CE66B612AE3780B00AC612D /* AppPreviewMaker.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppPreviewMaker.xctestplan; sourceTree = "<group>"; };
@@ -83,13 +83,13 @@
 		1C67D1B42AE2AD01009F4A60 /* AppPreviewMaker */ = {
 			isa = PBXGroup;
 			children = (
+				1C67D1B92AE2AD03009F4A60 /* Assets.xcassets */,
+				1C827DD72B20D65C00BB4552 /* Localizable.xcstrings */,
 				1C67D1B52AE2AD01009F4A60 /* AppPreviewMakerApp.swift */,
 				1C67D1DF2AE2B119009F4A60 /* Device.swift */,
-				1C67D1E12AE2C02A009F4A60 /* Page.swift */,
 				1C67D1B72AE2AD01009F4A60 /* ContentView.swift */,
 				1C67D1E32AE2C040009F4A60 /* PagingView.swift */,
 				1C67D1E52AE2C063009F4A60 /* PageView.swift */,
-				1C67D1B92AE2AD03009F4A60 /* Assets.xcassets */,
 				1C67D1BB2AE2AD03009F4A60 /* Preview Content */,
 			);
 			path = AppPreviewMaker;
@@ -195,6 +195,7 @@
 			files = (
 				1C67D1BD2AE2AD03009F4A60 /* Preview Assets.xcassets in Resources */,
 				1C67D1BA2AE2AD03009F4A60 /* Assets.xcassets in Resources */,
+				1C827DD82B20D65C00BB4552 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +216,6 @@
 				1C67D1E02AE2B119009F4A60 /* Device.swift in Sources */,
 				1C67D1E62AE2C063009F4A60 /* PageView.swift in Sources */,
 				1C67D1B82AE2AD01009F4A60 /* ContentView.swift in Sources */,
-				1C67D1E22AE2C02A009F4A60 /* Page.swift in Sources */,
 				1C67D1E42AE2C040009F4A60 /* PagingView.swift in Sources */,
 				1C67D1B62AE2AD01009F4A60 /* AppPreviewMakerApp.swift in Sources */,
 			);
